@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezervacija termina šišanja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Rezerviraj termin šišanja</h1>
+
+        <form class="forma" action="potvrda.html" method="POST">
+            <label for="ime">Ime i prezime:</label>
+            <input type="text" id="ime" name="ime" required>
+
+            <label for="email">Email (Gmail):</label>
+            <input type="email" id="email" name="email" required pattern=".+@gmail\.com">
+
+           <h2>Odaberi termin</h2>
+            <div id="kalendar"></div>
+            <input type="hidden" id="termin" name="termin">
+            <input type="hidden" id="vrijeme" name="vrijeme">
+
+            <button type="submit">Pošalji zahtjev</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
