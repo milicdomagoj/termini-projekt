@@ -10,7 +10,7 @@ Projekt je podijeljen na **frontend** (statičke HTML/CSS/JS stranice) i **backe
 
 ## Tehnologije
 - Backend: Node.js + Express
-- Baza: (npr. MySQL / MariaDB) + SQL skripta za inicijalizaciju
+- Baza: (MySQL ) + SQL skripta za inicijalizaciju
 - Frontend: HTML, CSS, JavaScript
 
 ## Struktura projekta
