@@ -19,21 +19,3 @@ backend/ # Node.js server, API, spajanje na bazu
 frontend/ # statičke stranice (UI)
 sql/ # SQL skripta za kreiranje tablica / inicijalne podatke
 
-
-## Preduvjeti
-- Node.js (preporuka: LTS)
-- Baza podataka (npr. MySQL/MariaDB)
-- npm
-
-## Instalacija i pokretanje
-
-### 1) Postavi bazu
-1. Kreiraj praznu bazu (npr. `termini`)
-2. Pokreni skriptu:
-   - `sql/terminal.sql`
-
-### 2) Backend
-```bash
-cd backend
-npm install
-npm start
